@@ -1,0 +1,241 @@
+
+/* Style the header with a color background and some padding */
+.header {
+    overflow: hidden;
+    background-color: white;
+    padding: 20px 10px;
+
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  /* Style the logo link */
+  .header a.logo {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 30px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    line-height: 25px;
+    border-radius: 4px;
+    background-color: inherit;
+    font-family: inherit; 
+    font-weight: bold;
+    margin: 0; 
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: normal;
+
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+
+    /* Middle Details */
+    .Details {
+        padding: 50px;
+        text-align: center;
+      }
+
+    .column {
+        float: left;
+        height: 900px; /* Should be removed. Only for demonstration */
+        background-color: #ddd;
+
+
+      }
+      
+    .left, .right {
+        width: 15%;
+      }
+      
+    .middle {
+        width: 70%;
+      }
+  .bg-image {
+    /* Full height */
+    height: 50%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Images used */
+  .img1 { background-image: url("img_snow.jpg"); }
+  .img2 { background-image: url("img_girl.jpg"); }
+  .img3 { background-image: url("img_lights.jpg"); }
+  .img4 { background-image: url("img_nature.jpg"); }
+  .img5 { background-image: url("img_forest.jpg"); }
+  .img6 { background-image: url("img_woods.jpg"); }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed; /* Stay fixed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  body, html {
+    height: 130%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 50%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Images used */
+  .img1 { background-image: url("Yone.jpg"); }
+  .img2 { background-image: url("Yone.jpg"); }
+
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed; /* Stay fixed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 430px;
+    padding: 20px;
+    text-align: center;
+  }
+  /* Footer */
+    .footer {
+    padding: 80px;
+    text-align: center;
+    background: white;
+  }
+
+  /* Style all font awesome icons */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  .fa-github {
+    color: black;
+  }
+
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
