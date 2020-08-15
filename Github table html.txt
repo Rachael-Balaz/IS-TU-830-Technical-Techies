@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+<table style="width:50%">
+  <tr>
+    <th>Team Member</th>
+    <th>Submission Count</th> 
+  </tr>
+  <tr>
+    <td>Jay Ho - S3660319</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Long Nguyen - s3627601</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Michael Mountjoy - s3841493</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Nathan Cochrane - s3825611</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Rachael Balaz - s3842207</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Tanya Tran - s3843142</td>
+    <td></td>
+  </tr>
+</table>
+
+</body>
+</html>
