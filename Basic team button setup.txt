@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.infoButton {
+  background-color: #34383d;
+  border: 3px solid black;
+  float: center;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 125px;
+}
+
+.centered {
+	text-align: center;
+    }	
+    
+</style>
+</head>
+<body>
+
+<div class = "centered">
+	<button class="infoButton" onclick = "JayInfo()">Jay</button>
+	<button class="infoButton" onclick = "LongInfo()">Long</button>
+	<button class="infoButton" onclick = "MichaelInfo()">Michael</button>
+	<button class="infoButton" onclick = "NathanInfo()">Nathan</button>
+	<button class="infoButton" onclick = "RachaelInfo()">Rachael</button>
+    <button class="infoButton" onclick = "TanyaInfo()">Tanya</button>
+</div>
+
+<p id = "p1">1</p>
+<p id = "p2">2</p>
+<p id = "p3">3</p>
+<p id = "p4">4</p>
+<p id = "p5">5</p>
+<p id = "p6">6</p>
+
+<script>
+
+function JayInfo()
+{
+	document.getElementById('p1').style.display='block'
+    document.getElementById('p2').style.display='none'
+    document.getElementById('p3').style.display='none'
+    document.getElementById('p4').style.display='none'
+    document.getElementById('p5').style.display='none'
+    document.getElementById('p6').style.display='none'
+}
+
+function LongInfo()
+{
+	document.getElementById('p1').style.display='none'
+    document.getElementById('p2').style.display='block'
+    document.getElementById('p3').style.display='none'
+    document.getElementById('p4').style.display='none'
+    document.getElementById('p5').style.display='none'
+    document.getElementById('p6').style.display='none'
+}
+
+function MichaelInfo()
+{
+	document.getElementById('p1').style.display='none'
+    document.getElementById('p2').style.display='none'
+    document.getElementById('p3').style.display='block'
+    document.getElementById('p4').style.display='none'
+    document.getElementById('p5').style.display='none'
+    document.getElementById('p6').style.display='none'
+}
+
+function NathanInfo()
+{
+	document.getElementById('p1').style.display='none'
+    document.getElementById('p2').style.display='none'
+    document.getElementById('p3').style.display='none'
+    document.getElementById('p4').style.display='block'
+    document.getElementById('p5').style.display='none'
+    document.getElementById('p6').style.display='none'
+}
+
+function RachaelInfo()
+{
+	document.getElementById('p1').style.display='none'
+    document.getElementById('p2').style.display='none'
+    document.getElementById('p3').style.display='none'
+    document.getElementById('p4').style.display='none'
+    document.getElementById('p5').style.display='block'
+    document.getElementById('p6').style.display='none'
+}
+
+function TanyaInfo()
+{
+	document.getElementById('p1').style.display='none'
+    document.getElementById('p2').style.display='none'
+    document.getElementById('p3').style.display='none'
+    document.getElementById('p4').style.display='none'
+    document.getElementById('p5').style.display='none'
+    document.getElementById('p6').style.display='block'
+}
+
+</script>
+
+</body>
+</html>
