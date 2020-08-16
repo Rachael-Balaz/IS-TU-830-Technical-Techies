@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="alpha.css">
+<style>
+
+    
+</style>
+</head>
+        <div class = "centered">
+            <h1 style="color:red">ASSIGNMENT PART 1</h1>
+            <h2>COSC2625 BUILDING IT SYSTEMS</h2>
+            <h3> Plunderer</h3>
+        
+            
+            <a href="Profile.html" class="dropbtn">Team Profile</a>
+        
+            <button class="dropbtn">Description</button>
+        
+        
+            <div class="dropdown">
+                <button class="dropbtn">Demonstratable Outcomes
+                </button>
+                <div class="dropdown-content">
+                  <a href="Motivation.html">Project motivation</a>
+                  <a href="Minimum.html">Minimum Viable Features</a>
+                  <a href="Extend.html">Extended Features</a>
+                </div>       
+            </div>
+        
+            <div class="dropdown">
+                <button class="dropbtn">Project Justification
+                </button>
+                <div class="dropdown-content">
+                  <a href="Timetable.html">Project timetable</a>
+                  <a href="#">Justified Workload</a>
+                  <a href="Risks.html">Beyond Capabilities & Risks</a>
+            </div>
+            </div>
+        
+            <div class="dropdown">
+                <button class="dropbtn">How
+                </button>
+                <div class="dropdown-content">
+                  <a href="Resources.html">Resources & Tools</a>
+                  <a href="Collaborative.html">Collaborative Workspace</a>
+                  <a href="Contract.html">Group Contract</a>
+                </div>
+            </div>
+            <a href="" class="dropbtn">Meeting Agenda</a>
+        
+            <div class="Details">
+                  <!-- <h2>Title</h2> -->
+                </div>
+                <div class="row">
+                    <div class="column left" style="background-color:white;">
+                      <h2></h2>
+                      <p></p>
+                    </div>
+                    <div class="column middle" style= "height: 1400px;">
+                      <h1>Minimum Viable Features</h1>
+
+                      <h2>Tutorial Level</h2>
+                      <p>The tutorial level is the first and simplest level. The purpose is to get the player familiarised with the game's mechanics and storyline. For beginner players, this will get them familiar with the control scheme found in platform games, and how mechanics such as health and obstacles function. Intermediate and experienced gamers would be familiar with these concepts and this level will mostly get them use to the character's and enemy movement. </p>
+                      <p>Validation Test: When shown the level, test players should be able to follow the instructions and by the end, know how to control the character and recognise how it interacts with the level's environment and enemies. Should be given to test players of each experience level to make sure it is conveyed to everyone</p>
+                      
+                      <h2>Character</h2>
+                      The character, a knight, is the protagonist of the story and the interactive sprite of the player. Players move the character through key/mouse input to get them through the level. The character should interact with level assets as solid objects and not pass through them. </p>
+                      <p>Validation Test: Pressing the designated keys should more the character in the way specified by each key. Moving the character into parts of the map should interact as a solid object, and not clip or glitch through. </p>
+                      
+                      <h2>Health Mechanic</h2>
+                      <p>A health bar is tied to the character and represents how many times they can be hit by enemies or fall into traps. Used to give a buffer so players do not die in one hit. The bar holds five units of health. Each hit by enemies or fall into a trap depletes the bar by one unit. Once the bar reaches zero, the character dies. Items can be found in each level that will replenish the health bar by two units. </p>
+                      <p>Validation Test: Run the character into enemies and into traps to make sure that health decreases on contact. Run the character into health replenishment items to make sure that health increases on contact. </p>
+                      
+                      <h2>Enemies</h2>
+                      <p>The main obstacles for the player. They will move on a set path, designed to obstruct players, but not completely prevent them from passing through to the rest of the level. The character will lose health if they make contact with an enemy and have to be avoided. The pathing given to the enemies should not be too hard to read, or too difficult to pass through, that beginner players would not be able to recognise them. </p>
+                      <p>Validation Test: Enemies follow the path allocated to each other, and not be impeded by level assets or clip through parts of the level. Test player, especially beginner players, should be able to point out what the path of each enemy is and be able to find a way to pass them. </p>
+                      
+                      <h2>Initial Death Handling</h2>
+                      <p>When the character's health reaches zero, the character 'dies' and is brought back to the start of the room (level section) they died on. Serves as a penalty for running into enemies or traps too many times. Intermediate and experienced players will find this as a fair penalty. While some beginner players might fine this frustrating in early levels, the penalty will not be so severe as these levels are smaller and easier so it is not too cumbersome to get back to the previous point. As they play and gain more experience the penalty severity will level out. </p>
+                      <p>Validation Test: Purposely kill the character on each enemy and trap to see if the character is brought back to the start of the room. </p>
+                      
+                      <h2>First Section</h2>
+                      <p>The first level outside the tutorial where the main game begins. It should be able to be easily explored using the skill and mechanics learnt in the tutorial. The path from the start to the end should be clear and straight forward, with only little deviation to get player use to the game's level designs. Enemies and traps should be few, with enemy pathing being very simple. Beginner players should be able to complete the level with little difficulty. Intermediate and experienced players will use this level to familiarise themselves with the level design and how it will affect the game mechanics. </p>
+                      <p>Validation Test: Test players of each experience level should be able to explore what there is of the map and reach the end without too much struggle. </p>
+
+                    </div>
+                    <div class="column right" style="background-color:white;">
+                      <h2></h2>
+                      <p></p>
+                    </div>
+                  </div>
+              <!-- <div class="footer">
+                  <a href="#" class="fa fa-github"></a>
+                  <a href="https://github.com/Rachael-Balaz/IS-TU-830-Technical-Techies"> Github</a>
+              </div>             -->
+
+</body>
+</html>
