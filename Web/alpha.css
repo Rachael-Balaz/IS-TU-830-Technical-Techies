@@ -111,7 +111,7 @@
 
     .column {
         float: left;
-        height: 900px; /* Should be removed. Only for demonstration */
+        height: 900px; 
         background-color: #ddd;
 
 
