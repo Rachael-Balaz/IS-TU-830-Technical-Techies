@@ -1,0 +1,29 @@
+
+Tutorial Level Aims
+Introducing 
+	- Game Mechanics
+		+ How to run, Jump
+		+ Enemies, Traps ( Spider, Spikes, Snakes)
+	- Objective 
+	- Story Line
+	- Current Level and Fuutre Level (Village, Castle)
+
+1st Scenerio
+- Start In the Forest Player is trying to get to nearby Village
+- Tutorial Begin ( Forest Background)
+	+ Simple Traps, Platform for players to get use to the Game System ( Forest Background)
+	+ Wood Theme Board Canvas with Game InStruction
+- Then Player arrive to the village and Lean how to interact with Villagers and Objects to gain more infor about his objective
+
+2nd Scenerio
+- Start at the Village as a Villager ( Peasant) 
+- Based on the background ( Poor kid) Player  will try to steal something as a part of the story line
+- Tutorial start from here ( Village Background)
+	+ Simple Traps, Platform for players to get use to the Game System (Village Background)
+	+ Start Cinemacine to introduce Game Features and Dialog
+	+ Dirt Theme Board Canvas with Game InStruction
+- Player get caught and be recuse by an npc
+- Get his objective and move to the next Level
+
+
+
