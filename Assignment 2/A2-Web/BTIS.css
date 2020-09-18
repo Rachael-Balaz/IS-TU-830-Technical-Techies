@@ -1,6 +1,7 @@
 .headerText {
     text-align: center;
     font-size: 20px;
+
 }
 
 .header {
@@ -124,6 +125,7 @@
     }
   }
   .footer {
+
     position: fixed;
     left: 0;
     bottom: 0;
