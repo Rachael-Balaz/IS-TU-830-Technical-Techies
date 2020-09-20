@@ -17,8 +17,8 @@ table, th, td {
 {
   text-align: center;
   font-size: 20px;
-width: 50%;
-margin: auto;
+  width: 50%;
+  margin: auto;
 }
 .header {
     background-color: wheat;
