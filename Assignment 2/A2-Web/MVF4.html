@@ -3,21 +3,21 @@
 <head>
 <title>BTIS</title>
 <link rel="stylesheet" href="BTIS.css">
+<meta charset="UTF-8">
 </head>
 <body>
 
   <div class="header">
-    <h2>BITS A2 COSC2625</h2>
+    <img src="Pic/Logo.PNG" alt="" style="width: 20%;">
   </div>
     
 
     <div class="topnav" id="myTopnav">
-      <a href="Home.html">Home</a>
 
       <a href="Description.html">Description</a>
 
 
-      <a href="Est.html">EST Plan</a>
+      <a href="Est.html">Estimation</a>
 
 
         <div class="dropdown">
@@ -35,12 +35,12 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="MVF1.html">MVF 1</a>
-          <a href="MVF2.html">MVF 2</a>
-          <a href="MVF3.html">MVF 3</a>
-          <a href="MVF4.html" class="active">MVF 4</a>
-          <a href="MVF5.html">MVF 5</a>
-          <a href="MVF6.html">MVF 6</a>
+          <a href="MVF1.html">Tutorial</a>
+          <a href="MVF2.html">Main Character</a>
+          <a href="MVF3.html">First Level</a>
+          <a href="MVF4.html" class = "active">Health Mechanic</a>
+          <a href="MVF5.html">Enemies</a>
+          <a href="MVF6.html">Initial Death Handling</a>
         </div>
       </div>
 
@@ -52,38 +52,50 @@
       <img src="" alt="">
 
       <div class="headerText">
-        <h1>MVF4 - Enemies</h1>
-        <h2>Description</h2>
-        <p>The main obstacles for the player. Enemies will be developed to obstruct players, slowing them down, creating challenges prevent them from passing through to the rest of the level. They will try to contact with the player if they are close enough and dealing with them certain damage prevent players to pass the level. Each type of enemy will have different attack mechanics and difficulty which provided to players variety of experiences while playing required them to be caution each time dealing with any type of enemies. To be more specific, enemies that are living object such as human, creatures, plants. They will have patrol mechanics which allows them to wander in certain areas guarding, waiting for players then detect system if the player it's in range to attack them. However, The pathing given to the enemies should not be too hard to read, or too difficult to pass through, those beginner players would not be able to recognise them.</p>
+      
+        <h1>MVF4 - Health Mechanic</h1>
+
+        <p> Description: The health mechanic refers to how many times the player can take damage before they die. The player can take damage through falling into traps or being hit by an enemy. Within the context of the game, the player has 5 units of health. Using items found within the game can replenish the character’s health by 2 units.</p>
+
+        <p> Other enemies do not share this health mechanic. In other words, enemies cannot be killed, and they must be avoided.</p>
+
+        <h1> Design</h1>
+
+        <p> This is the design of the health mechanic:</p>
+
+        <img src="Pic/design.png">
+
+        <p> The following is an annotated diagram of how the player interacting with a trap can affect their HP:</p>
+
+        <h2> Upon triggering the trap:</h2>
+
+        <img src="Pic/trigger.png">
+
+        <h2> The result of triggering the trap:</h2>
+
+        <img src="Pic/trigger2.png">
+
+        <h2> User Scenario </h2>
+        <p>Carl is a 12 year old casual gamer that enjoys easy video games. As the health mechanic provides multiple chances for the player to learn from their mistakes and progress, Carl is pleased that he feels he can make progressive and continuous accomplishment in a video game without dying. However, Carl does sometimes get frustrated when he dies to a sneaky trap or is killed by an enemy. This means that although Carl can occasionally become frustrated due to the difficulty of the game, it is still easy enough that he can have an enjoyable experience playing it. </p>
+
+        <p> Dylan is an 18 year old intermediate gamer. The health mechanic gives plenty of chances for Dylan to progress through the early levels at a satisfying pace and he rarely becomes frustrated once he dies. Occasionally Dylan can get stuck at certain points in the game, but generally he powers through it without too much difficulty. However, in the later levels, as the game becomes harder, Dylan encounters more difficulty and has to overcome the new challenges he faces. </p>
+
+        <p> Tyler is a 22 year old hardcore gamer. He desires a gruelling, relentless challenge. Although Tyler finds the game exceptionally easy in the first 10 levels or so, eventually he starts to find it more difficult as more dynamics become introduced into the game and the enemies, as well as traps, become more ferocious and numerous.</p>
+
+        <h2> Validation Criteria </h2>
+        <p>The health mechanic as a concept can be evaluated through multiple elements of a criteria. These include whether the health mechanic is represented by an instinctive symbol apparent to the user, whether the display of the health is visually appealing and positioned correctly, and if the mechanic itself has a meaningful purpose in the game. </p> 
+        <p> Firstly, does the health mechanic have an intuitive symbol that symbolises the health? In this case, a “heart” representing the player’s health is a popular standard used in video games in which the player can take damage.  </p> 
+        <p> Secondly, is the positioning and sizing of where the health is visually appealing? Due to the scale of platforming games, the sizing of the hearts would need to be adjusted relevant to the resolution. In this case, from a cursory glance, the health is not visually overbearing but it is also not so small that it is not immediately obvious how much health the player has left. </p> 
+        <p> Thirdly, does the health mechanic serve a meaningful function in the context of the game? The health mechanic provides chances for the player to keep progressing through a level and keeps the difficulty balanced. This means the game is more accessible to wider audiences and is not strictly a difficult game that only attracts experienced players or those who desire challenges. </p>
+
+
       </div>
 
-      <div class="headerText">
-        <h2>User Story</h2>
-        <p>As a Player, I want to have some challange in game so he can overcome himself.</p>
-        <p>As a Player, I  t to enemies will have different mechanics based on their looks, so the game can be more challenging.</p>
-      </div>
 
-      <div class="headerText">
-        <h2>User Scenario</h2>
-        <p>Ben is a high school student, as a teenager Ben is still going to school everyday. Homeworks and assignments are a lots and they are giving Ben a lots of stress so he looking for a game that can help him to relax. A game with simple attractive art, but not boring or too hard and bloody so that he can enjoy it while relaxing from the stress from school. </p>
-        <p>Jack is a hardcore player, he want the enemies going to be intersting having different behaviours. Enemies that he want is can have a unique indivitual attack or many mechanics.</p>
-      </div>
-
-      <div class="headerText">
-        <h2>Design</h2>
-        <p>Depend on the main theme of the level that will decide on how the enemies will look like. For example, for our first level which will be set in a Forest - Village - Medival - fantasy theme so the enemies would likely to be some kind of animals like snakes, spiders or fantasy creature like Golbin, Golem will the most appealing for these themes. Secondly, for the second level that is set place in a medieval castle, there are many enemies which are the best option for this theme such as Knight, Spiders, guard dogs, etc...As for specific aesthetics, our enemies will mainly have circular shape combining with pointy sharpy shape giving the player mixed emotions for their experience between cute and scary. Ultimately, these design and development choices will set the player to many different experiences feeling while playing the game,  attract them to start and continues playing.</p>
-        <img src="Pic/Spider.png" alt="">
-        <img src="Pic/Knight.png" alt="" style="width: 42%;">
-
-      </div>
-
-      <div class="headerText">
-        <h2>Validation Test</h2>
-        <p>Enemies follow the path allocated to each other, and not be impeded by level assets or clip through parts of the level. Test player, especially beginner players, should be able to point out what the path of each enemy is and be able to find a way to pass them. and be able to damage player or even take damage and animation is work right with every state of the character.</p>
-      </div>
+      <br></br>
 
       <div class="footer">
-        <p>Footer</p>
+        <p>Nathan Cochrane - Long Thanh Nguyen - Tanya Tran - Jay Ho - Michael Mountjoy - Rachael Balaz</p>
       </div>
 
       <script>

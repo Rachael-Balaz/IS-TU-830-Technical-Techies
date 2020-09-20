@@ -3,21 +3,21 @@
 <head>
 <title>BTIS</title>
 <link rel="stylesheet" href="BTIS.css">
+<meta charset="UTF-8">
 </head>
 <body>
 
   <div class="header">
-    <h2>BITS A2 COSC2625</h2>
+    <img src="Pic/Logo.PNG" alt="" style="width: 20%;">
   </div>
     
 
     <div class="topnav" id="myTopnav">
-      <a href="Home.html">Home</a>
 
       <a href="Description.html">Description</a>
 
 
-      <a href="Est.html">EST Plan</a>
+      <a href="Est.html">Estimation</a>
 
 
         <div class="dropdown">
@@ -35,12 +35,12 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="MVF1.html" class="active">MVF 1</a>
-          <a href="MVF2.html">MVF 2</a>
-          <a href="MVF3.html">MVF 3</a>
-          <a href="MVF4.html">MVF 4</a>
-          <a href="MVF5.html">MVF 5</a>
-          <a href="MVF6.html">MVF 6</a>
+          <a href="MVF1.html" class = "active">Tutorial</a>
+          <a href="MVF2.html">Main Character</a>
+          <a href="MVF3.html">First Level</a>
+          <a href="MVF4.html">Health Mechanic</a>
+          <a href="MVF5.html">Enemies</a>
+          <a href="MVF6.html">Initial Death Handling</a>
         </div>
       </div>
 
@@ -51,24 +51,64 @@
       <img src="" alt="">
 
       <div class="headerText">
-        <h1>MVF1</h1>
+        <h1>MVF1 - Tutorial</h1>
         <h2>Description</h2>
+        <p>The tutorial is the introductory level to the game. It is used to introduce the player to the mechanics so they can become familiar with them. The player, as they run through the tutorial, will encounter each mechanic and be given a short description to how it works. The player will encounter the mechanics throughout the tutorial but only be introduced to one at a time.</p>
+        <p>The order that mechanics are introduced in is:</p>
+        <div class="centre">
+        <ul>
+          <li>Movement controls</li>
+          <li>Obstacles (Jumping)</li>
+          <li>Enemies</li>
+          <li>Traps</li>
+        </ul>
+      </div>
+        <p>The mechanics are ordered this way as they build off each other to form the core gameplay. The health mechanic, and therefore the death mechanic, are also introduced with the first encounter of enemies as this is the first time they could be encountered.</p>
+        <h2>Design</h2>
+        <img src="Pic/Village.png">
+        <p>Village Concept</p>
+        <p>The tutorial starts off by showing the first objective to reach, the village, before panning over to the player starting in the forest to the left of the village. The player is then shown how to move and makes their way to the village. Before they make it there, they encounter obstacles that require jumping over. After this, the player makes it to the village where they are told why the character is there, shown the castle, and warning of danger going forward. The player continues forward and encounters the first enemy. Just before reaching the castle, the player gets introduced to traps. Once the player reaches the castle, the tutorial is finished.</p>
+
+        <h2>User Stories</h2>
+        <p>As a player, I want to know the story so that I understand why the character is here.</p>
+        <p>As a player, I want to be shown the mechanics so that I understand how to interact with them.</p>
+
+        <h3>Story Board</h3>
+        <p>Layout of the tutorial</p>
+        <img src="Pic/tLayout.jpg" width="400">
+      
+        <p>Introduce moving</p>
+        <img src="Pic/tMove.jpg" width="400">
+      
+        <p>Introduce jumping</p>
+        <img src="Pic/tJump.jpg" width="400">
+      
+        <p>Player makes it to the village</p>
+        <img src="Pic/tVillage.jpg"width="400">
+      
+        <p>Introduce enemies</p>
+        <img src="Pic/tEnemy.jpg" width="400">
+      
+        <p>Introduce Health</p>
+        <img src="Pic/tHealth.jpg" width="400">
+      
+        <p>Introduce traps</p>
+        <img src="Pic/tTrap.jpg" width="400">
+      
+        <p>Tutorial end</p>
+        <img src="Pic/tEnd.jpg" width="400">
+
+        <h2>Validation Criteria</h2>
+        <p>Scenario 1: Player starts tutorial</p>
+        <p>Given I’m a player starting the tutorial, when I spawn in, the game shows me how to interact with the game and when I encounter a new mechanic, the game shows me how it works.</p>
+      
+        <p>Scenario 2: Player reaches village</p>
+        <p>Given I’m a player in the tutorial, when I reach the village, the game tells me the reason why the character is here.</p>      </div>
       </div>
 
-      <div class="headerText">
-        <h2>Design/Prototype</h2>
-      </div>
-
-      <div class="headerText">
-        <h2>User Story</h2>
-      </div>
-
-      <div class="headerText">
-        <h2>Validation</h2>
-      </div>
 
       <div class="footer">
-        <p>Footer</p>
+        <p>Nathan Cochrane - Long Thanh Nguyen - Tanya Tran - Jay Ho - Michael Mountjoy - Rachael Balaz</p>
       </div>
 
       <script>

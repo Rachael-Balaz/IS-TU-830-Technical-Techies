@@ -3,21 +3,21 @@
 <head>
 <title>BTIS</title>
 <link rel="stylesheet" href="BTIS.css">
+<meta charset="UTF-8">
 </head>
 <body>
 
   <div class="header">
-    <h2>BITS A2 COSC2625</h2>
+    <img src="Pic/Logo.PNG" alt="" style="width: 20%;">
   </div>
     
 
     <div class="topnav" id="myTopnav">
-      <a href="Home.html" >Home</a>
 
       <a href="Description.html" >Description</a>
 
 
-      <a href="Est.html" class = "active">EST Plan</a>
+      <a href="Est.html" class = "active">Estimation</a>
 
 
         <div class="dropdown">
@@ -35,12 +35,12 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="MVF1.html">MVF 1</a>
-          <a href="MVF2.html">MVF 2</a>
-          <a href="MVF3.html">MVF 3</a>
-          <a href="MVF4.html">MVF 4</a>
-          <a href="MVF5.html">MVF 5</a>
-          <a href="MVF6.html">MVF 6</a>
+          <a href="MVF1.html">Tutorial</a>
+          <a href="MVF2.html">Main Character</a>
+          <a href="MVF3.html">First Level</a>
+          <a href="MVF4.html">Health Mechanic</a>
+          <a href="MVF5.html">Enemies</a>
+          <a href="MVF6.html">Initial Death Handling</a>
         </div>
       </div>
 
@@ -52,11 +52,147 @@
 
       <div class="headerText">
        <h1>Estimate Plan</h1>
+       <table style = "width:100%">
+        <tr>
+          <th colspan = "9">Technical Techies</th>
+        </tr>
+        <tr>
+          <th colspan = "9">Plunderer</th>
+        </tr>
+        <tr>
+          <th>Features</th>
+          <th>Ivan Sun</th>
+          <th>Nathan Cochrane</th>
+          <th>Tanya Tran</th>
+          <th>Long Nguyen</th>
+          <th>Rachael Balaz</th>
+          <th>Michael Mountjoy</th>
+          <th>Jay Ho</th>
+          <th>Average Hours</th>
+        </tr>
+        <tr>
+          <th>MVF 1 - Tutorial</th>
+          <td></td>
+          <td>35</td>
+          <td>20</td>
+          <td>42</td>
+          <td>23</td>
+          <td>30</td>
+          <td>4</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <th>MVF 2 - Main Character</th>
+          <td></td>
+          <td>19</td>
+          <td>35</td>
+          <td>13</td>
+          <td>14</td>
+          <td>15</td>
+          <td>3</td>
+          <td>16</td>
+        </tr>
+        <tr>
+          <th>MVF 3 - First Level</th>
+          <td></td>
+          <td>8</td>
+          <td>5</td>
+          <td>48</td>
+          <td>20</td>
+          <td>5</td>
+          <td>4</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <th>MVF 4 - Health Mechanic</th>
+          <td></td>
+          <td>1</td>
+          <td>5</td>
+          <td>7</td>
+          <td>4</td>
+          <td>15</td>
+          <td>10</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <th>MVF 5 - Enemies / Traps</th>
+          <td></td>
+          <td>8</td>
+          <td>20</td>
+          <td>28</td>
+          <td>10</td>
+          <td>25</td>
+          <td>28</td>
+          <td>19</td>
+        </tr>
+        <tr>
+          <th>MVF 6 - Death Mechanic</th>
+          <td></td>
+          <td>2</td>
+          <td>3</td>
+          <td>5</td>
+          <td>3</td>
+          <td>5</td>
+          <td>26</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <th>EVF 1 - Second Level</th>
+          <td></td>
+          <td>15</td>
+          <td>10</td>
+          <td>50</td>
+          <td>20</td>
+          <td>20</td>
+          <td>30</td>
+          <td>24</th>
+        </tr>
+        <tr>
+          <th>EVF 2 - Ability Items</th>
+          <td></td>
+          <td>13</td>
+          <td>7</td>
+          <td>30</td>
+          <td>17</td>
+          <td>10</td>
+          <td>15</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <th>EVF 3 - Checkpoints</th>
+          <td></td>
+          <td>13</td>
+          <td>5</td>
+          <td>12</td>
+          <td>4</td>
+          <td>5</td>
+          <td>15</td>
+          <td>9</td>
+        </tr>
+        <tr>
+          <th colspan = "7"></th>
+          <th>Total Hours</th>
+          <td>137</td>
+        </tr>
+
+        <h1>Estimated Workload Justification</h1>
+        <h2>Minimum Viable Features</h2>
+        <p>The tutorial is one of the parts which may take a while, as it introduces all of the primary concepts of the game. Each group member will probably spend around 30 hours on just the tutorial alone. This will include designing sprites, associating sounds to particular actions, coding mechanics, troubleshooting errors and more. As this is a hefty task, sections of game design will be distributed and allocated appropriately.</p>
+        <p>The player character and how they move would probably not take too long. This is because this part involves the design of the player’s sprite, how they move, and implementing collisions with the player character and the game world.</p>
+        <p>The first level, which is technically the second level, would probably take a far bit of time to do. Enemies, items, traps and level design will be implemented here, meaning this process would probably be the most time-consuming. This would require level design, item effects, sprite design, sound design, and more. This level is essentially the culmination of the entire project’s work and has much overlap with the other minimum viable features. For these reasons, this would be the most time-consuming part of the project and may take around 40 hours. However, it might also be comparable to the tutorial.</p>
+        <p>The health mechanic should not be a time-consuming process. This would above all else require coding, as this mechanic is concerned primarily with how threats in the environment can influence a character’s health. Some design would be required here, as the hearts themselves would need to be designed. Depending on the allocation of work, this could take anywhere from 2 to 15 hours per group member.</p>
+        <p>The enemies and traps might take a fair bit of time. The sprites for the enemies and obstacles would need to be designed. These are not restricted to the static sprites themselves, but also when they are attacking, moving, or in the case of the traps, whether they have been triggered. These also include coding trigger events, the general process of creating something through code, and how it interacts with other mechanics like the health of the player. The spider web slow effect trap would also take coding because it applies a slowing effect to the player character. Therefore, the enemies/obstacles design and coding might take around 5-20 hours based on work allocation.</p>
+        <p>The initial death handling refers to when the character dies or reaches 0 health. They are restarted and put towards the beginning of the level. This term also refers to the difficulty of the enemies and obstacles, as it is associated with how the player dies. This section itself would probably take around 2-5 hours per person.  The primary parts that would take the most work are the coding and some general theory surrounding the difficulties of the traps and enemies and seeing that implemented into practice.</p>
+        <h2>Extended Features</h2>
+        <p>The second level involves the extension of new challenges, obstacles and fleshing out the lore of the game. Although this also needs to be bug tested. For example, the player character should go through the level a couple of times and try to break the game in order to root out any glitches or bugs. The time spent on this section is entirely subject to change, because it depends how much time the group has left to work on it. However, considering the remarkable amount of progress the team is making, we could see at least 20-30 hours worked on this section per group member.</p>
+        <p>Ability items involve creating items for the player to collect that alter the core gameplay. It would probably involve the implementation of a gliding cape, a shield which gives one extra life to the player character, or magical boots that allow double jump. In order to bug test this, we would need people within or outside of the group to play the levels with the items over and over to see whether there’s an internal inconsistency in the game. This could take 5-15 hours per person depending on work allocation and optimisation.</p>
+        <p>The checkpoint system refers to what happens when the player dies. Like the design of the health mechanic, this probably would not take too long. However, once again, this is contingent on whether the group has enough time to work on it. If they do, the following can be expected. With proper team collaboration and contributions, this should not take more than 5-15 hours per person. We would need to bug test whether the checkpoint system can glitch, like if an enemy gets stuck in the respawn point and blocks it or unfairly hits the protagonist upon spawning. The necessary coding and the process that involves would also need to be underwent, which is where the bulk of the time could potentially come from.</p>
+
       </div>
 
 
         <div class="footer">
-          <p>Footer</p>
+          <p>Nathan Cochrane - Long Thanh Nguyen - Tanya Tran - Jay Ho - Michael Mountjoy - Rachael Balaz</p>
         </div>
 
         
