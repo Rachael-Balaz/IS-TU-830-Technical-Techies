@@ -1,61 +1,70 @@
+
+table, th, td {
+
+  border: 1px solid black;
+ 
+  border-collapse: collapse;
+ 
+  }
 .headerText {
     text-align: center;
     font-size: 20px;
-
+  padding-bottom: 70px;
+  width: 50%;
+  margin: auto;
 }
-
+.centre
+{
+  text-align: center;
+  font-size: 20px;
+width: 50%;
+margin: auto;
+}
 .header {
-    background-color: #f1f1f1;
+    background-color: wheat;
     padding: 30px;
     text-align: center;
   }
-/* Add a black background color to the top navigation */
 .topnav {
-    background-color: wheat;
+    background-color: tan;
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
   .topnav a {
     float: right;
     display: block;
-    color: grey;
+    color:white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
   }
   
-  /* Add an active class to highlight the current page */
   .active {
-    background-color: skyblue;
+    background-color: saddlebrown;
     color: white;
   }
   
-  /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
     display: none;
   }
   
-  /* Dropdown container - needed to position the dropdown content */
   .dropdown {
     float: right;
     overflow: hidden;
   }
   
-  /* Style the dropdown button to fit inside the topnav */
   .dropdown .dropbtn {
-    font-size: 17px;
+    font-size: 20px;
     border: none;
     outline: none;
-    color: grey;
+    color: white;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
   }
   
-  /* Style the dropdown content (hidden by default) */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -65,7 +74,6 @@
     z-index: 1;
   }
   
-  /* Style the links inside the dropdown */
   .dropdown-content a {
     float: none;
     color: black;
@@ -75,24 +83,31 @@
     text-align: left;
   }
   
-  /* Add a dark background on topnav links and the dropdown button on hover */
   .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: #555;
     color: white;
   }
   
-  /* Add a grey background to dropdown links on hover */
   .dropdown-content a:hover {
     background-color: #ddd;
     color: black;
   }
   
-  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
   .dropdown:hover .dropdown-content {
     display: block;
   }
   
-  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+  .footer {
+    margin-top: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: tan;
+    color:saddlebrown;
+    text-align: center;
+    font-size: 20px;
+ }
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
       display: none;
@@ -103,7 +118,6 @@
     }
   }
   
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
@@ -124,13 +138,3 @@
       text-align: left;
     }
   }
-  .footer {
-
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: wheat;
-    color: white;
-    text-align: center;
- }

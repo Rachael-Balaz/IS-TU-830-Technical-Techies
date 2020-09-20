@@ -3,21 +3,21 @@
 <head>
 <title>BTIS</title>
 <link rel="stylesheet" href="BTIS.css">
+<meta charset="UTF-8">
 </head>
 <body>
 
   <div class="header">
-    <h2>BITS A2 COSC2625</h2>
+    <img src="Pic/Logo.PNG" alt="" style="width: 20%;">
   </div>
     
 
     <div class="topnav" id="myTopnav">
-      <a href="Home.html">Home</a>
 
       <a href="Description.html">Description</a>
 
 
-      <a href="Est.html">EST Plan</a>
+      <a href="Est.html">Estimation</a>
 
 
         <div class="dropdown">
@@ -35,12 +35,12 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="MVF1.html">MVF 1</a>
-          <a href="MVF2.html">MVF 2</a>
-          <a href="MVF3.html">MVF 3</a>
-          <a href="MVF4.html">MVF 4</a>
-          <a href="MVF5.html">MVF 5</a>
-          <a href="MVF6.html" class="active">MVF 6</a>
+          <a href="MVF1.html">Tutorial</a>
+          <a href="MVF2.html">Main Character</a>
+          <a href="MVF3.html">First Level</a>
+          <a href="MVF4.html">Health Mechanic</a>
+          <a href="MVF5.html">Enemies</a>
+          <a href="MVF6.html" class = "active">Initial Death Handling</a>
         </div>
       </div>
 
@@ -51,24 +51,20 @@
       <img src="" alt="">
 
       <div class="headerText">
-        <h1>MVF1</h1>
+        <h1>MVF 6 - Initial Death Handling</h1>
         <h2>Description</h2>
-      </div>
-
-      <div class="headerText">
+        <p>Initial Death Handling is just the systems handling of the Playable characters death. In the event that the player characters health reaches zero, the player gets brought to the “Death Screen” where he will get score of their current playthrough and the choice to restart the game or from the last checkpoint the player has triggered. The Initial Death Handling of the player should be concise and intuitive, so the player will keep trying again after a fail. This is because the consequence of death means very little except a restart to the last checkpoint, which will encourage the player to keep trying again as the in-game characters death is a minor setback. Since this mechanic is strongly tied to the Health Bar Mechanic, it must be designed and implemented first before work on the Death Handling system can start.</p>
         <h2>Design/Prototype</h2>
-      </div>
-
-      <div class="headerText">
+        <p>The design of the Death Handling System needed to be carefully considered as it will servery effect the difficulty of the game, and the incorrect system could leave a bad impression on users and cause them to stop playing the game. In almost every game with a user played character, there are two main ways the game system deals with player death. The first method is the “hardcore/ironman death” meaning, the player will lose all progress completely and restart from the start. The second is the “checkpoint death” method, where the player is sent back to the last checkpoint, they have triggered losing all progress they had from the checkpoint to where they died. As “Plunderer” is a completely platforming game with considerable difficulty, the use of the “hardcore/ironman death” method, could cause the player to find the consequence of death too punishing, thus putting them off the game. Since that is the case we decided to go with the “checkpoint death” system as this allows us to make the level design and obstacles much more punishing without the user finding the game too difficult.</p>
+        <img src="Pic/PlayerDeathMenu.jpg" alt="Player Death Menu Concept Example">
         <h2>User Story</h2>
-      </div>
-
-      <div class="headerText">
-        <h2>Validation</h2>
+        <p>As a Player of the game “Plunderer”, I need to avoid getting my health reduced to Zero by the obstacles in the level in order to achieve my current objective.</p>
+        <h2>Validation Criteria</h2>
+        <p>As a Player of the game “Plunderer”, I need to avoid getting my health reduced to Zero by the obstacles in the level in order to achieve my current objective. This means that the successful implementation of the Initial Death Handling, can be validated by the player being reset and brought to the death screen when their health bar reaches zero.</p>
       </div>
 
       <div class="footer">
-        <p>Footer</p>
+        <p>Nathan Cochrane - Long Thanh Nguyen - Tanya Tran - Jay Ho - Michael Mountjoy - Rachael Balaz</p>
       </div>
 
 
