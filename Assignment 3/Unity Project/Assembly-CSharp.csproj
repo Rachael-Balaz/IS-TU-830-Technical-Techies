@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{f333a847-458e-f999-7bf7-93cb604b4d52}</ProjectGuid>
+    <ProjectGuid>{d3e7bcbd-9d13-db3e-816d-fb1d73476d25}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -39,6 +39,7 @@
      <Compile Include="Assets\Enemies\Core\PersistentObjectSpawner.cs" />
      <Compile Include="Assets\Enemies\Cinematics\CinematicTrigger.cs" />
      <Compile Include="Assets\Enemies\Cinematics\CinematicControlRemover.cs" />
+     <Compile Include="Assets\Starfield Skybox\Demo\Script\LookCamera.cs" />
      <Compile Include="Assets\Enemies\Scene Management\SavingWrapper.cs" />
      <Compile Include="Assets\Enemies\Saving\ISaveable.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
@@ -58,7 +59,6 @@
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\Enemies\Control\AIController.cs" />
      <Compile Include="Assets\Enemies\Scene Management\Fader.cs" />
-     <Compile Include="Assets\Starfield Skybox\Demo\Script\LookCamera.cs" />
      <None Include="Assets\PolygonNature\Shaders\SyntyStudios_LOD.shader" />
      <None Include="Assets\PolygonNature\Shaders\SyntyStudios_Vines.shader" />
      <None Include="Assets\PolygonNature\Shaders\SyntyStudios_Water.shader" />
@@ -601,61 +601,85 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TerrainTools">
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids">
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TerrainTools.Editor">
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>E:/Back Up 2020/Unity/IT Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>C:/Users/nguye/Documents/GitHub/IS-TU-830-Technical-Techies/Assignment 3/Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
