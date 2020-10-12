@@ -59,6 +59,8 @@
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\Enemies\Control\AIController.cs" />
      <Compile Include="Assets\Enemies\Scene Management\Fader.cs" />
+     <Compile Include="Assets\DeactiveSky.cs" />
+     <Compile Include="Assets\ActiveSave.cs" />
      <None Include="Assets\PolygonNature\Shaders\SyntyStudios_LOD.shader" />
      <None Include="Assets\PolygonNature\Shaders\SyntyStudios_Vines.shader" />
      <None Include="Assets\PolygonNature\Shaders\SyntyStudios_Water.shader" />
