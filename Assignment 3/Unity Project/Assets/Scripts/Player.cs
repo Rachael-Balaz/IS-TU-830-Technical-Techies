@@ -13,7 +13,6 @@ public class Player : MonoBehaviour
     private float vSpeed = 0f;
     private CharacterController controller;
     private bool isJump = false;
-    private bool doubleJump = false;
     private int right = 1;
     private Vector3 vel;
     private Transform transform;
@@ -53,16 +52,6 @@ public class Player : MonoBehaviour
             //Reset velocity
             vel = Vector3.zero;
 
-            //Double Jump Code
-            if (Input.GetKeyDown("space") && doubleJump == false && isJump == true)
-            {
-                vSpeed = jumpSpeed;
-                doubleJump = true;
-
-                if (gravity != 9.8f)
-                    gravity = 9.8f;
-            }
-
             //Jump Code
             if (Input.GetKeyDown("space") && isJump == false)
             {
@@ -78,7 +67,6 @@ public class Player : MonoBehaviour
             if (CheckGround() && jumpFrame == false)
             {
                 vSpeed = 0;
-                doubleJump = false;
                 isJump = false;
 
                 if (gravity != 0f)
@@ -95,6 +83,16 @@ public class Player : MonoBehaviour
 
             //Applying Gravity
             vSpeed -= gravity * Time.deltaTime;
+
+            if (transform.position.x < -6)
+                canMoveLeft = false;
+            else
+                canMoveLeft = true;
+
+            if (transform.position.x > 190)
+                canMoveRight = false;
+            else
+                canMoveRight = true;
 
             //Left and Right Code
             if (Input.GetKey("d") && canMoveRight)

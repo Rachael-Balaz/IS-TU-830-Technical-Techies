@@ -17,7 +17,7 @@ public class Camera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!(playerTransform.position.x < -3 || playerTransform.position.x > 3))
+        if (!(playerTransform.position.x < -6 || playerTransform.position.x > 190))
         {
             pos.x = playerTransform.position.x;
             transform.position = pos;
