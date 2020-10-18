@@ -45,6 +45,17 @@
           </div>
       </div>
 
+      <a href="Challange.html">Future development</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">Background
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Background.html">About our Project</a>
+          <a href="Meet.html" >Meet the Team</a>
+        </div>
+      </div>
 
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
@@ -53,13 +64,18 @@
       <img src="" alt="">
 
       <div class="headerText">
-       <h1>Windfall</h1>
-       <p>As a group, we decided to shift the “first level” from the extended features and integrated it as part of the Minimum Viable Features. We needed to optimise this because there was structural changes that occurred to the team at certain points in time that necessitated this shift. However, despite this adaptation, this optimised the efficiency of the completion of the assignment. 
-      </p>
-       <p>There were also some discrete workarounds the group discovered when trying to coordinate the assignment. For example, striking an appropriate balance between the designation of tasks and the duration it takes to complete them resulted in less time that it would take to complete and achieve certain milestones within the assignment. Also, using Github desktop was a streamlined and intuitive way to upload and edit files to Git. This avoided having to navigate to the website, login, and manually upload each file. Instead, the members of the team merely had to edit the files locally, and then forward it as a commit, which had a cumulative compounding effect in saving time.
-      </p>
-       <p>Additionally, the construction of the timetable was a well-optimised effort because each group member focused on filling out the estimated time they would spend working on each applicable part of the project. Members of the group filled this out on a Google Drive document which all of the team had access to, which ensured that each member did not have to waste time creating a table or trying to format one. Therefore, this optimised the amount of time focused on productive work and not on work that does not contribute to the completion of the assignment within a timely manner.
-      </p>
+        <h3>Description</h3>
+        <p>The checkpoint system allows the player to save character progress through the level by changing the player’s respawn point. By passing a checkpoint, it will activate and from then until a further checkpoint is activated, when the player dies, they will respawn at the checkpoint.</p>
+        <p>The checkpoint has two states, active and inactive. As stated earlier, when the player walks past the checkpoint, it will activate and switch states. When changing from one state to the other, the checkpoint will visibly alter to show that it has changed states.</p>
+        <p>The checkpoint design is based on a standing torch. It has four wooden poles as the base of the torch that intersect near the top of the torch, before spreading back out at the top. The top section holds a metal container that will be the part that gets set alight while the checkpoint is active.</p>
+        
+        <h3>User Story</h3>
+        <p>As a player, I want to have my level progress retained on death so that I don’t have to re-do certain sections</p>
+        <p>As a player, I want checkpoints to show that it is activated so that I know my progress is saved</p>
+        
+        <h3>Validation Criteria</h3>
+        <p>Scenario: Player comes across a checkpoint</p>
+        <p>Given I’m a player, when I walk across a checkpoint, the checkpoint becomes active and when this happens, the checkpoint visibly changes showing that it is activated</p>
 
 
       </div>

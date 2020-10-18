@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BTIS</title>
+<link rel="stylesheet" href="BTIS.css">
+<meta charset="UTF-8">
+</head>
+<body>
+
+  <div class="header">
+    <img src="Pic/Logo.PNG" alt="" style="width: 20%;">
+  </div>
+    
+
+    <div class="topnav" id="myTopnav">
+
+
+
+      <a href="Challange.html">Challanges/Learning</a>
+
+
+        <div class="dropdown">
+            <button class="dropbtn">Resources
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="Trello.html">Trello</a>
+              <a href="Meeting Agenda.html" >Meeting Agenda</a>
+              <a href="Github.html" >Github</a>
+            </div>
+          </div>
+    <div class="dropdown">
+        <button class="dropbtn">Progress
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Description.html">Description</a>
+          <a href="Outcomes.html">Outcomes to date</a>
+          <a href="EVFs.html">EVFs</a>
+          <a href="Creep.html">Scope creep</a>
+          <a href="Windfall.html">Windfall</a>
+          <a href="Progress.html">Progress</a>
+          <a href="Testing.html">Testing</a>
+          <a href="Tools.html">Tools and Technologies</a>
+          </div>
+      </div>
+
+      <a href="Challange.html">Future development</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">Background
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Background.html">About our Project</a>
+          <a href="Meet.html" >Meet the Team</a>
+        </div>
+      </div>
+
+      <a href="Challange.html">Future development</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">Background
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Background.html">About our Project</a>
+          <a href="Meet.html" >Meet the Team</a>
+        </div>
+      </div>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+
+      <img src="" alt="">
+
+      <div class="headerText">
+       <h1>Outcomes to Date
+      </h1>
+      <p>The tutorial level is the introductory area where the player gets introduced to the mechanics of the game. To meet this goal, we gave on-screen instructions that show the player the controls. We only implemented this for jumping however and not moving, health and death, traps or enemies. This was due to communication issues within the team slowing progress down.
+      </p>
+      <img src="Outcomes/Tutorial_Level.png">
+      <img src="Outcomes/Tutorial_Instruction.png">
+
+      <p>The playable character is what the player controls during the game. He can run and jump in order to get around obstacles in their way. The player does not animate during these actions, but animation was more a stretch goal.
+      </p>
+      <img src="Outcomes/Player.png">
+      <p>The traps in the game are one of the obstacles in the game that obstructs the player’s path. The trap that was implemented was the spike trap/pit. This trap is stationary and when the player touches them, the player dies. Other more advanced traps were to be implemented during later levels in the game after the player understands the initial trap concept.
+      </p>
+      <img src="Outcomes/Trap.png">
+      <p>The enemies in the game are the other obstacle in the game that obstructs the player’s path. The enemies are more dynamic than traps in that they interact with the world more. The enemy we implemented was an orc, a large and muscly humanoid. Due to implementation issues and time crunch, the orc only stands in the way and doesn’t interact otherwise.
+      </p>
+      <img src="Outcomes/Enemy.png">
+      <p>The health and death mechanic are directly tied to the playable character. The character has a set amount of health and lose health when running into traps or enemies. Once the player loses all their health, they die and shows the death screen. The death screen allows the player to either respawn or exit the game.
+      </p>
+      <img src="Outcomes/Health.png">
+      <img src="Outcomes/Death.png">
+
+
+      </div>
+
+
+        <div class="footer">
+          <p>Nathan Cochrane - Long Thanh Nguyen - Tanya Tran - Jay Ho - Michael Mountjoy - Rachael Balaz</p>
+        </div>
+
+        
+      <script>
+          /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+      </script>
+
+      
+</body>
+</html>
