@@ -1,0 +1,210 @@
+<table style="width:50%">
+  <tr>
+    <th>Group Member</th>
+    <th>Assigned Tasks</th> 
+  </tr>
+  <tr>
+    <td rowspan = "13">Nathan Cochrane</td>
+    <td>
+    	<a href="https://trello.com/c/q2n4pDlJ">Write Challenges and Learning (Individual)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    	<a href="https://trello.com/c/QlrarBpQ">Write People Section (Individual)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    	<a href="https://trello.com/c/nqqoWWQi">Develop Character Controls (Lead)</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/5n3xaZco">Develop Traps (Lead)</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/IMorNNYd">Develop Enemies</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/1fA4HfXK">Develop Death Handling (Lead)</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/aRYDkiiE">Develop Health Mechanic (Lead)</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/nog1tLwa">Write Project Processes (Lead)</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/rxz4NM0D">Write Extended Viable Features (Co-Lead)</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/GMI2WgA5">Write Scope (Lead)</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/BFnfs2eY">Develop Tutorial</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/59ic0pCe">Write Outcomes to Date</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/aqGXp8Qe">Write Testing</a>
+    </td>
+  </tr>
+  
+  <tr>
+    <td rowspan = "6">Tanya Tran</td>
+    <td>
+    	<a href="https://trello.com/c/q2n4pDlJ">Write Challenges and Learning (Individual)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    	<a href="https://trello.com/c/QlrarBpQ">Write People Section (Individual)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    	<a href="https://trello.com/c/spzAb0Hz">A3 Meeting Agenda (Lead)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    	<a href="https://trello.com/c/rxz4NM0D">Write Extended Viable Features (Co-Lead)</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/VNsg8qSY">Write Progress (Lead)</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/WtCbcbwY">Write Description (Lead)</a>
+    </td>
+  </tr>
+  
+  <tr>
+    <td rowspan = "7">Long Nguyen</td>
+    <td>
+    	<a href="https://trello.com/c/q2n4pDlJ">Write Challenges and Learning (Individual)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    	<a href="https://trello.com/c/QlrarBpQ">Write People Section (Individual)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    	<a href="https://trello.com/c/IMorNNYd">Develop Enemies (Lead)</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/5n3xaZco">Develop Traps</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/BFnfs2eY">Develop Tutorial (Lead)</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/59ic0pCe">Write Outcomes to Date (Lead)</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/aqGXp8Qe">Write Testing (Lead)</a>
+    </td>
+  </tr>
+  
+  <tr>
+    <td rowspan = "10">Michael Mountjoy</td>
+    <td>
+    	<a href="https://trello.com/c/q2n4pDlJ">Write Challenges and Learning (Individual)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    	<a href="https://trello.com/c/QlrarBpQ">Write People Section (Individual)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    	<a href="https://trello.com/c/S1GUDOtE">Write Motivation (Lead)</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/fqIY9ENM">Write Aim and Goals (Lead)</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/qVie2RrM">Write Scope Creep (Lead)</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/90GZwzEw">Write Windfall (Lead)</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/GA1zh3WF">Write Tools and Technologies (Lead)</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/BFnfs2eY">Develop Tutorial</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/59ic0pCe">Write Outcomes to Date</a>
+    </td>
+  </tr>
+    <tr>
+    <td>
+    	<a href="https://trello.com/c/aqGXp8Qe">Write Testing</a>
+    </td>
+  </tr>
+  
+  <tr>
+    <td rowspan = "3">Jay Ho</td>
+    <td>
+    	<a href="https://trello.com/c/q2n4pDlJ">Write Challenges and Learning (Individual)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    	<a href="https://trello.com/c/QlrarBpQ">Write People Section (Individual)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    	<a href="https://trello.com/c/qmsneyzT">Write Future Development (Lead)</a>
+    </td>
+  </tr>
+</table>
