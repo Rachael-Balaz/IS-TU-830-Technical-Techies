@@ -20,6 +20,8 @@ public class Camera : MonoBehaviour
         if (!(playerTransform.position.x < -6 || playerTransform.position.x > 190))
         {
             pos.x = playerTransform.position.x;
+            pos.y = playerTransform.position.y + 2;
+
             transform.position = pos;
         }
     }
