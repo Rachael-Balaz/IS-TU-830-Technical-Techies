@@ -44,7 +44,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (jumpFrame == true && transform.position.y > 0.3f)
+        if (jumpFrame == true)
             jumpFrame = false;
 
         if (canMove)
@@ -58,6 +58,8 @@ public class Player : MonoBehaviour
                 jumpFrame = true;
                 vSpeed = jumpSpeed;
                 isJump = true;
+                Vector3 adjust = new Vector3(0, groundDistance, 0);
+                transform.position += adjust;
 
                 if (gravity != 9.8f)
                     gravity = 9.8f;
@@ -201,5 +203,10 @@ public class Player : MonoBehaviour
         }
 
         return grounded;
+    }
+
+    public void SetSpawn(Vector3 position)
+    {
+        startPos = position;
     }
 }
