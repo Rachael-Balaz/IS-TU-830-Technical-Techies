@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BTIS</title>
+<link rel="stylesheet" href="BTIS.css" >
+<meta charset="UTF-8">
+</head>
+<body>
+
+  <div class="header">
+    <img src="Pic/Logo.PNG" alt="" style="width: 20%;">
+  </div>
+    
+
+    <div class="topnav" id="myTopnav">
+
+      <a href="Description.html">Description</a>
+
+
+      <a href="Est.html">Estimation</a>
+
+
+        <div class="dropdown">
+            <button class="dropbtn">Resources
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="Trello.html" class="active">Trello</a>
+              <a href="Meeting Agenda.html" >Meeting Agenda</a>
+              <a href="Github.html" >Github</a>
+            </div>
+          </div>
+    <div class="dropdown">
+        <button class="dropbtn">MVF
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="MVF1.html">Tutorial</a>
+          <a href="MVF2.html">Main Character</a>
+          <a href="MVF3.html">First Level</a>
+          <a href="MVF4.html">Health Mechanic</a>
+          <a href="MVF5.html">Enemies</a>
+          <a href="MVF6.html">Initial Death Handling</a>
+        </div>
+      </div>
+
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+
+      <img src="" alt="">
+
+      <div class="headerText">
+
+        <table style="width:100%">
+          <tr>
+            <th>Group Member</th>
+            <th>Assigned Tasks</th> 
+          </tr>
+          <tr>
+            <td rowspan = "3">Nathan Cochrane</td>
+            <td>
+              <a href="https://trello.com/c/02shEsFI">Design Main Character</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://trello.com/c/sftpr3qY">Design Tutorial (Lead)</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://trello.com/c/pmEDepWa">Story Board Tutorial (Lead)</a>
+            </td>
+          </tr>
+          
+          <tr>
+            <td rowspan = "4">Tanya Tran</td>
+            <td>
+              <a href="https://trello.com/c/02shEsFI">Design Main Character (Lead)</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://trello.com/c/80gAhL4Z">Design Enemies </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://trello.com/c/0Y4ggeve">A2 Meeting Agenda (Lead)</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://trello.com/c/YMN9kSh4">Project Logo (Lead)</a>
+            </td>
+          </tr>
+          
+          <tr>
+            <td rowspan = "3">Long Nguyen</td>
+            <td>
+              <a href="https://trello.com/c/80gAhL4Z">Design Enemies (Lead)</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://trello.com/c/sftpr3qY">Design Tutorial</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://trello.com/c/BmDCWE62">Technologies and Architecture (Lead)</a>
+            </td>
+          </tr>
+          
+          <tr>
+            <td rowspan = "4">Rachael Balaz</td>
+            <td>
+              <a href="https://trello.com/c/p1KW2Dbc">Research Typography for Project (Lead)</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://trello.com/c/vNNB8NO2">Design Game Section 1 (Lead)</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://trello.com/c/cHTkRynw">Story Board Game Section 1 (Lead)</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://trello.com/c/CUuHIMwR">Design Sound Assets (Co-Lead)</a>
+            </td>
+          </tr>
+          
+          <tr>
+            <td rowspan = "3">Michael Mountjoy</td>
+            <td>
+              <a href="https://trello.com/c/bYyUpj78">Design Traps (Co-Lead)</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://trello.com/c/51k6p8gQ">Design Health Mechanic (Lead)</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://trello.com/c/CUuHIMwR">Design Sound Assets (Co-Lead)</a>
+            </td>
+          </tr>
+          
+          <tr>
+            <td rowspan = "3">Jay Ho</td>
+            <td>
+              <a href="https://trello.com/c/PAZcLQdE">Design Menu (Lead)</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://trello.com/c/bYyUpj78">Design Traps (Co-Lead)</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://trello.com/c/x9pvnB7P">Design Death Mechanic (Lead)</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="headerText">
+        </div>
+
+
+        <div class="footer">
+          <p>Nathan Cochrane - Long Thanh Nguyen - Tanya Tran - Jay Ho - Michael Mountjoy - Rachael Balaz</p>
+        </div>
+      <script>
+          /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+      </script>
+</body>
+</html>
